@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label x:Name="fio" Content="Филимонцев Владислав Владимирович" HorizontalAlignment="Left" Margin="125,131,0,0" VerticalAlignment="Top" Width="240"/>
+        <Label x:Name="myGroup" Content="Пв2-22ПО (20.03.2023 – 14.09.2024)" HorizontalAlignment="Left" Margin="125,169,0,0" VerticalAlignment="Top" Width="220"/>
+        <Button x:Name="ButtonChecker" Content="myChecker" HorizontalAlignment="Left" Margin="125,226,0,0" VerticalAlignment="Top" Width="178" Click="Button_Click"/>
+
+        <Label x:Name="fio2" Content="Петров Иван Иванович" HorizontalAlignment="Left" Margin="473,131,0,0" VerticalAlignment="Top" Width="240"/>
+        <Label x:Name="myGroup2" Content="Пв2-22ПО (20.03.2023 – 14.09.2024)" HorizontalAlignment="Left" Margin="473,169,0,0" VerticalAlignment="Top" Width="220"/>
+        <Button x:Name="ButtonChecker2" Content="myChecker2" HorizontalAlignment="Left" Margin="473,226,0,0" VerticalAlignment="Top" Width="178" Click="Button_Click2"/>
 
     </Grid>
 </Window>
